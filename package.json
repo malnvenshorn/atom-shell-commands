@@ -15,9 +15,11 @@
   ],
   "homepage": "https://github.com/skywind3000/atom-shell-commands",
   "dependencies": {
+    "atom-message-panel": "^1.2.4",
+    "cson": "^5.1.0",
+    "fs-plus": "^3.0.2",
     "space-pen": "^4",
-    "xregexp": "^2.0.0",
-    "atom-message-panel": "^1.2.4"
+    "xregexp": "^2.0.0"
   },
   "author": {
     "name": "skywind3000"
@@ -62,5 +64,12 @@
         }
       }
     ]
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1"
   }
 }
