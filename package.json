@@ -17,6 +17,7 @@
   "dependencies": {
     "atom": "^1.1.0",
     "atom-message-panel": "^1.2.4",
+    "chokidar": "^2.0.1",
     "cson": "^5.1.0",
     "fs-plus": "^3.0.2",
     "space-pen": "^4",
